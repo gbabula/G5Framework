@@ -1,0 +1,92 @@
+/* 
+
+	G5Framework
+
+	===================================================
+
+	TODO : Concatenate & Minify CSS Pre-production
+
+	Imports are only for convenience during development!
+	
+	====================================================
+
+	00 		Reset
+	01		Grid
+	02 		Fonts
+	03 		Global Classes
+	04 		Forms
+	05 		Modals
+	06 		Tabs
+
+	07 		Demo Page CSS
+
+*/
+
+@import "reset.css";
+@import "grids.css";
+@import "fonts.css";
+@import "global-classes.css";
+@import "form.css";
+@import "modal.css";
+@import "tabs.css";
+
+@import "demo-page.css";
+
+/* 
+
+	For projects IE8+
+	Natural Box Model // Position inline blocks properly
+
+	*, 
+	*:before, 
+	*:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; vertical-align: text-top; }
+
+*/
+
+*, 
+*:before, 
+*:after { vertical-align: text-top; }
+
+/* HTML // Body */
+html, body { height: 100%; }
+html { font: normal normal 100%/1.5em helvetica, arial, sans-serif; }
+body { background: #411c15; color: #f6f6f6; font: normal normal 0.938em/1.6em helvetica, arial, sans-serif; }
+
+a,
+a:link { border-bottom: 1px solid; color: #DC8492; text-decoration: none; }
+a[class~="button"] { border-bottom: none; }
+a:hover {  } 
+a:visited { border-bottom: 1px dotted; color: #DC8492; }
+
+a.secondary { border-bottom: none; }
+
+dl { margin: 1em 0; }
+dl dt { font-weight: bold; }
+dl dd { opacity: 0.7; padding: 1em 0; }
+
+table { border-collapse: collapse; width: 100%; }
+tr:nth-of-type(odd) { background: #eee; }
+th { background: #333; color: white; font-weight: bold; }
+td, 
+th { border: 1px solid #ccc; padding: 6px; text-align: left; }
+
+abbr[title],
+dfn[title] { border-bottom: 1px dotted #f2bc32; }
+
+/* Main */ 
+#main { margin: 0 auto; padding: 0; position: relative; min-height: 100%; width: 100%; }	
+
+/* Main // Wrappers */ 
+.wrap-max,
+.wrap { margin: 0 auto; padding: 0; width: 100%; }
+.wrap { max-width: 1024px; min-width: 200px; padding: 0 5%; width: 90%; }
+
+/* Header // Logo */ 
+#logo { margin: 0; overflow: hidden; height: 72px; width: 267px; }
+#logo a { background: url(../images/g5-logo.png) no-repeat; display: block; height: 100%; text-decoration: none; width: 100%; }
+
+/* Content // Base */ 
+.content { margin: 2em auto; padding: 0 0 20em 0; text-align: left; }
+
+/* Sticky Footer */ 
+#bottom { bottom: 0; left: 0; margin: 0 auto; position: absolute; }

@@ -1,0 +1,109 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (max-width : 480px) {
+
+	html { font-size: 120%; line-height: 1.5em; }
+
+	.unit { float: none !important; width: auto !important; }
+
+	fieldset select { display: block; }
+
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-width : 481px) {
+	
+	html { font-size: 115%;	}
+
+}
+
+/* Any screen smaller than 760px and also iPads specifically. */
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { display: block; }
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr { left: -9999px; position: absolute; top: -9999px; }
+	tr { border: 1px solid #000; overflow: hidden; }
+	/* Behave  like a "row" */
+	td { border: none; border-bottom: 1px solid #eee; position: relative; padding-left: 50%; }
+	/* Now like a table header */
+	td:before { left: 1em; padding-right: 1em; position: absolute; top: .3em; width: 45%; white-space: nowrap; }
+
+	/* Label the data */
+	.css-classes-table td:nth-of-type(1):before { content: "Class"; }
+	.css-classes-table td:nth-of-type(2):before { content: "Description"; }
+
+	.js-hooks-table td:nth-of-type(1):before { content: "Selector"; }
+	.js-hooks-table td:nth-of-type(2):before { content: "Information"; }
+
+}
+
+/* WIN8 */
+@media screen and (max-width:400px) {
+	@-ms-viewport{
+	    width: device-width;
+	}
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+
+	th,
+	td { padding: 1em; }
+	td:first-child { width: 25%; }
+
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}

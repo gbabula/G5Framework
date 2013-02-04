@@ -1,0 +1,196 @@
+/* 
+
+  G5Framework
+
+  ===============================================
+
+  Reset + HTML5 baseline + Normalize + Print Base
+
+  ===============================================
+
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, figure, footer, header, 
+hgroup, menu, nav, section, menu,
+time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}                  
+
+/* 
+Reset Main Elements // 
+Add scroll bar to all browsers to maintain consistency // 
+Prevent iOS text size adjust on device orientation change, without disabling user zoom //
+Maintain font consistency in all browsers
+*/
+html { -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+body { font:13px arial,helvetica,"Nimbus Sans L", "Bitstream Vera Sans", sans-serif; *font-size:small; *font:x-small; line-height:1.22; }
+
+/* HTML5 Baseline // Corrects block display not defined in IE6/7/8/9 & FF3 */
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary { display: block; }
+
+/* Reset Nav // Display Main Nav Horizontally, Display Side Nav Vertically // Remove List Style Type */
+nav ul { margin: 0; padding: 0; }
+nav ul li { display: inline; list-style: none; }
+aside nav ul li { display: block; }
+
+/* Reset Headings */
+h1,h2,h3,h4,h5,h6 { font-weight: bold; text-rendering: optimizeLegibility; }
+
+/* 444 is better then 000 */
+body, select, input, textarea { color:#444; }
+
+/* Corrects inline-block display not defined in IE6/7/8/9 & FF3 */
+audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+
+/* Prevents modern browsers from displaying 'audio' without controls */
+audio:not([controls]) { display: none; }
+
+/* Addresses styling for 'hidden' attribute not present in IE7/8/9, FF3, S4 // no IE6 support */
+[hidden] { display: none; }
+
+/* Addresses margin not present in IE6/7/8/9, S5, O11 */
+figure { margin: 0; padding: 0; }
+figure figcaption { text-align: center; }
+
+/* Reset Links // Remove Outlines */
+a { margin:0; padding:0; border:0; font-size:100%; vertical-align:baseline; background:transparent; }
+a:active, a:hover, a:focus { outline: none; }
+
+a, a:active, a:visited { color:#0066ff; }
+a:hover { color:#0048b5; }
+a:link { -webkit-tap-highlight-color: #ff9000; } 
+
+/* Improve readability of pre-formatted text in all browsers // Add Styling to older browsers */
+code, pre { font-family: "Courier New", monospace, serif; font-size: 1em; }
+ins { background-color:#ff9; color:#000; text-decoration:none; }
+mark { background-color:#ff9; color:#000; font-style:italic; font-weight:bold; }
+del { text-decoration: line-through; }
+
+/* Normalzie HR Styling */
+hr { display:block; height:1px; border:0; border-top:1px solid #ccc; margin:1em 0; padding:0; }
+
+/* Quotes */
+blockquote, q { quotes:none; }
+blockquote:before, blockquote:after, q:before, q:after { content:''; content:none; }
+
+/* Abbr & Defenitions */
+abbr[title], dfn[title] { border-bottom: 1px dotted #000; cursor: help; }
+
+/* Reset Table */
+table { font-size:inherit; font:100%; }
+table { border-collapse:collapse; border-spacing:0; }
+td, td img { vertical-align:top; } 
+
+/* Basic Styling */
+ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
+
+dd { margin: 0 0 0 40px; }
+ol { list-style-type: decimal; }
+
+small { font-size: 85%; }
+strong, th, b { font-weight: bold; }
+
+em, i, dfn { font-style: italic; }
+
+/* Removes border when inside 'a' element in IE6/7/8/9, FF3 // Improves image quality when scaled in IE7 */
+img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+
+/* Corrects overflow displayed oddly in IE9 */
+svg:not(:root) { overflow: hidden; }
+
+/* Reset Form Elements */
+select, input, textarea { font:99% arial,helvetica,"Nimbus Sans L", "Bitstream Vera Sans", sans-serif; }
+
+/* Removes default vertical scrollbar in IE6/7/8/9 // Improves readability and alignment in all browsers */
+textarea { overflow: auto; vertical-align: top; resize: none; -moz-appearance: textfield; -webkit-appearance: textfield; }
+
+button { width: auto; overflow: visible; }
+button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; }
+
+/*
+ * 1. Improves usability and consistency of cursor style between image-type 'input' and others
+ * 2. Corrects inability to style clickable 'input' types in iOS
+ * 3. Corrects inner spacing displayed oddly in IE7 without effecting normal text inputs
+ *    Known issue: inner spacing remains in IE6
+ */
+button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; *overflow: visible; }
+
+/* Addresses FF3/4 setting line-height on 'input' using !important in the UA stylesheet */
+button, input { line-height: normal; }
+
+/* Corrects inner padding and border displayed oddly in FF3/4  */
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+
+/* Corrects alignment displayed oddly in IE6/7 */
+legend { border: 0; *margin-left: -7px; padding: 0; }
+
+/* Reset Form Elements // Input */
+input { outline: none; }
+input:focus { outline: none; }
+input, select { vertical-align: middle; }
+select:focus { outline: none; }
+
+/* Addresses box sizing set to content-box in IE8/9 // Addresses excess padding in IE8/9 */
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0; }
+
+input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+
+/* Corrects inner padding displayed oddly in S5, Chrome on OSX */
+input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
+
+input[type="radio"] { vertical-align: text-bottom; }
+input[type="checkbox"] { vertical-align: bottom; *vertical-align: baseline; }
+
+input:valid, textarea:valid {  }
+input:invalid, textarea:invalid { background-color: #f0dddd; }
+
+.ie6 input { vertical-align: text-bottom; }
+
+/* Add Pointer */
+a[href], input[type='submit'], input[type='image'], label, select, button, .pointer { cursor: pointer; }
+
+/* Position subscript and superscript content without affecting line-height: h5bp.com/k */
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+
+/* www.pathf.com/blogs/2008/05/formatting-quoted-code-in-blog-posts-css21-white-space-pre-wrap/ */
+pre { padding: 15px; white-space: pre; /* CSS2 */ white-space: pre-wrap; /* CSS 2.1 */ white-space: pre-line; /* CSS 3 (and 2.1 as well, actually) */ word-wrap: break-word; /* IE */ }
+
+/* Selection G5Framework colors */
+::-moz-selection{ background: #000; color: #fff; text-shadow: none; }
+::selection { background: #000; color: #fff; text-shadow: none; } 
+
+/* Clearfix */
+.cf:before, .cf:after { content: ""; display: table; }
+.cf:after { clear: both; }
+.cf { zoom: 1; }
+
+/* Print Styles / inlined to avoid required HTTP connection www.phpied.com/delay-loading-your-print-css/ */
+@media print {
+    * { background: transparent !important; color: black !important; box-shadow:none !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } /* Black prints faster: h5bp.com/s */
+    a, a:visited { text-decoration: underline; }
+    .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  /* Don't show links for images, or javascript/internal links */
+    pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+    thead { display: table-header-group; } /* h5bp.com/t */
+    tr, img { page-break-inside: avoid; }
+    img { max-width: 100% !important; }
+    @page { margin: 0.5cm; }
+    p, h2, h3 { orphans: 3; widows: 3; }
+    h2, h3 { page-break-after: avoid; }
+}

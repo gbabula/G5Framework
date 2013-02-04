@@ -1,0 +1,53 @@
+	
+	/* PROJECT */
+	
+	G5Framework [v5]
+
+
+	/* TEAM */
+	
+	
+
+
+	/* CREDITS */
+
+	G5Framework
+	Greg Babula
+
+	Modernizr
+	Faruk Ates, Paul Irish, Alex Sexton
+
+	Reset + HTML5 baseline + Normalize + Print Base + Clearfix
+	Paul Irish, Eric Meyer, Nicolas Gallagher
+
+	CSS3 PIE
+	Jason Johnston
+
+	jQuery
+	John Resig & jQuery Board
+
+	jQuery Validate
+	Jorn Zaefferer
+
+	jQuery Metadata
+	John Resig, Yehuda Katz, Jorn Zaefferer, Paul McLanahan
+
+	jQuery Placeholder Fallback
+	Daniel Stocks
+
+	jQuery customInput Plugin
+	Maggie Costello Wachs & Scott Jehl
+
+	iOS Orientation Fix
+	Scott Jehl & Mat Marquis
+
+	OOCSS Grid
+	Nicole Sullivan
+
+	Responsive Tables
+	Chris Coyier
+
+
+	/* ACKNOWLEDGEMENTS */
+
+	DraftFCB NY - for supporting the project.

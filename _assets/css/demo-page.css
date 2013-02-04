@@ -1,0 +1,70 @@
+/* Demo Page // Content */
+.demo-page .wrap { max-width: 760px; }
+.demo-page a:hover { background: rgba(0, 0, 0, 0.3); }
+
+.demo-page { text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.4); }
+.demo-page .content .first h1 { margin-bottom: 0; padding-bottom: 2em; }
+.demo-page .content h1 { margin-bottom: 2em; }
+
+.csstransitions .demo-page h1 a { -o-transition: all .8s linear; -moz-transition: all .8s linear; -webkit-transition: all .8s linear; transition: all .8s linear; }
+.csstransitions .demo-page h1 a:hover { padding: 0 .6em; }
+
+.demo-page h1,
+.demo-page h2 { color: #f2bc32; }
+
+.demo-page h1 a { border: none; }
+
+/* Demo Page // Navigation */
+.demo-page [role="navigation"] { background: rgba(0, 0, 0, 0.3); margin: 0; padding: 2em 5%; position: fixed; text-align: center; right: 0; top: 0; width: 90%; z-index: 10; }
+.demo-page [role="navigation"]:hover { background: rgba(0, 0, 0, 0.6); box-shadow: 0 0 2em rgba(0, 0, 0, 1); }
+
+.demo-page #top { margin-top: 5.5em; }
+.demo-page .island.primary { background: rgba(0, 0, 0, 0.2); box-shadow: inset 0 0 .6em rgba(0, 0, 0, 0.1); }
+
+/* Demo Page // Grid */
+#grid-example .line { border: 1px solid rgba(0, 0, 0, 0.5); padding: 1em; }
+
+/* Demo Page // Table */
+.demo-page thead { background: rgba(0, 0, 0, 0.6); }
+.demo-page tr:nth-of-type(odd) { background: rgba(0, 0, 0, 0.3); }
+.demo-page th { background: rgba(0, 0, 0, 0.1); color: #f6f6f6; font-weight: bold; }
+.demo-page td, 
+.demo-page th { border: 1px solid #010101; text-align: left; }
+
+/* Demo Page // Buttons */
+.demo-page .button { background: rgba(0, 0, 0, 0.3); }
+.demo-page .button:hover { background: rgba(0, 0, 0, 0.5); color: #fff; }
+
+/* Demo Page // Modals */
+.demo-page .modal.standard { background: #411c15; color: inherit; }
+
+/* Demo Page // Other */
+#breakdown h2 { padding-left: 1em; }
+#breakdown ul { opacity: 0.8; padding-left: 2.8em; }
+
+/* Demo Page // Fallback */
+.no-rgba .demo-page a:hover,
+.no-rgba .demo-page .island.primary,
+.no-rgba .demo-page [role="navigation"],
+.no-rgba .demo-page .demo-page thead,
+.no-rgba .demo-page .button { background: url(../images/content/bg_black-op.png) repeat 0 0; }
+.no-rgba .demo-page .button:hover { background: #010101; }
+
+.no-rgba .demo-page #grid-example .line { border: 1px solid #010101; }
+
+/* Demo Page // Print */
+@media print {
+
+	#bottom .navigation-object,
+	#form-example,
+	.demo-page [role="navigation"] { display: none; }
+
+}
+
+@media only screen 
+and (max-width : 480px) {
+
+	.demo-page #top { margin-top: 3.5em; }
+	.demo-page [role="navigation"] { background: rgba(0, 0, 0, 0.6); box-shadow: 0 0 2em rgba(0, 0, 0, 1); padding: 1em 5%; }
+
+}

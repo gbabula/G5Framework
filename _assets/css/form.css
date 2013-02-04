@@ -1,0 +1,57 @@
+/* Content // Form */ 
+label,
+input { display: inline-block; }
+input { border: none; }
+input:focus { outline: 1px solid; }
+
+fieldset { margin: 0 0 1em 0 ; }
+fieldset label { width: 8em; }
+fieldset input { padding: .3em .5em; width: 12em; }
+fieldset .focus-increase:focus { width: 15em; }
+
+/* Content // Form // Validation */ 
+.form-validation .form-errors { display: none; margin: 0 0 1em 0; }
+.form-validation .form-errors label { display: list-item; list-style: none; }
+
+.thank-you { display: none; }
+
+input.error { box-shadow: 0 0 5px #ff0000; }
+input.valid { box-shadow: 0 0 5px #00ff00; }
+
+/* Content // Form // Radio & Checkbox */ 
+.custom-checkbox,
+.custom-radio { position: relative; }
+
+/* Content // Form // Radio & Checkbox // Positioning */ 
+.custom-checkbox input,
+.custom-radio input { filter: alpha(opacity=0); opacity: 0; position: absolute; left: 7px; top: 7px; margin: 0; z-index: 1; }
+
+.custom-checkbox label,
+.custom-radio label { display: block; position: relative; line-height: 1; padding: .4em 0 .5em 32px; margin: 0 0 .3em; cursor: pointer; z-index: 2; }
+
+/* Content // Form // Radio & Checkbox // States */ 
+.custom-checkbox label { background: url(../images/form/checkbox.png) no-repeat; }
+.custom-radio label { background: url(../images/form/radiobutton.png) no-repeat; }
+
+.custom-checkbox label,
+.custom-radio label { background-position: -10px -14px; }
+
+.custom-radio label.hover,
+.custom-radio label.focus { background-position: -10px -112px; }
+
+.custom-checkbox label.hover,
+.custom-checkbox label.focus { background-position: -10px -111px; }
+
+.custom-checkbox label.checked { background-position: -10px -212px; }
+.custom-radio label.checked { background-position: -10px -213px; }
+
+.custom-checkbox label.focus,
+.custom-radio label.focus { outline: 1px dotted #ccc; }
+
+.custom-radio .error ~ label,
+.custom-checkbox .error ~ label { color: red; }
+
+/*
+.custom-radio .error ~ label,
+.custom-checkbox .error ~ label { background-position: -10px -312px; }
+*/

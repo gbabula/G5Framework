@@ -1,0 +1,12 @@
+/* Content // Tabs */ 
+.tabs ul { margin: 1em 0; padding: 0; }
+.tabs li { float: left; list-style: none; margin: 0 .5em 0 0; }
+.tabs .headlink { display: block; margin: 0; height: 100%; width: 100%; }
+.tabs .last,
+.tabs li:last-child { margin-right: 0; }
+
+.tabs .active .headlink { font-weight: bold; }
+
+.tabs-content { clear: both; }
+.tabs-content .tab { display: none; margin: 0; padding: 0; }
+.tabs-content .tab.active { display: block; }
