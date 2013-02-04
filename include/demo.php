@@ -2,7 +2,7 @@
                     <p><em>Web boilerplate stack (<a href="#html5" class="scroll-to">HTML5</a>, <a href="#css3" class="scroll-to">CSS3</a>, <a href="#jquery" class="scroll-to">jQuery</a>, and <a href="#php" class="scroll-to">PHP</a>). G5Framework provides some rock-solid code and functionality for you to start with, however it leaves all the remaining development and styling up to the developer.</em></p>
                     
                     <p class="topspc"><span class="t-icon">K</span> <strong>License:</strong> Must leave reference to <a href="humans.txt">humans.txt</a></p>
-                    <p><span class="t-icon">D</span> <strong>Download:</strong> <a href="#">ZIP</a>, <a href="#">Source on GitHub</a></p>
+                    <p><span class="t-icon">D</span> <strong>Download:</strong> <a href="https://github.com/gbabula/G5Framework/archive/master.zip">ZIP</a>, <a href="https://github.com/gbabula/G5Framework">Source on GitHub</a></p>
                 </article><!--end #download-->
 
                 <section class="island" id="faq">
