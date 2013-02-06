@@ -216,6 +216,15 @@
                     </div><!--end .line-->
                 </section><!--end #buttons-example-->
 
+                <section class="island" id="modals-example">
+                    <h1><a href="#modals-example">#</a> Simple Modals</h1>
+
+                    <div class="line">
+                        <a href="#" class="button secondary brdr brdr-secondary" rel="modal" data-modal_content="example">Modal Example</a>
+                        <a href="http://gregbabula.com" class="button secondary brdr brdr-secondary" rel="external">Exit Ramp</a>
+                    </div><!--end .line-->
+                </section><!--end #modals-example-->
+
                 <section class="island" id="tabs-example">
                     <h1><a href="#tabs-example">#</a> Simple Tabs</h1>
 
@@ -329,7 +338,7 @@
                             </tr>
                             <tr>
                                 <td><code>.line</code></td>
-                                <td>Groups units on one horizontal line. Note: for mobile layout units may be stacked to avoid horizontal scrolling.</td>
+                                <td>Groups units on one horizontal line. <em>Note:</em> for mobile layout units may be stacked to avoid horizontal scrolling.</td>
                             </tr>
                             <tr>
                                 <td><code>.unit</code></td>
@@ -389,16 +398,11 @@
                             </tr>
                             <tr>
                                 <td><code>.form-validation</code></td>
-                                <td>Attaches JS validation and error styling to form</td>
+                                <td>Attaches error styling to form</td>
                             </tr>
                             <tr>
                                 <td><code>.focus-increase</code></td>
                                 <td>Increase input width on focus</td>
-                            </tr>
-
-                            <tr>
-                                <td><code>.thank-you</code></td>
-                                <td>Form post AJAX message container</td>
                             </tr>
                             <tr>
                                 <td><code>.custom-checkbox</code></td>
@@ -506,7 +510,7 @@
                             </tr>
                             <tr>
                                 <td><code>.tabs</code></td>
-                                <td>Primary tabs container, attaches JS tabs and overall styling</td>
+                                <td>Primary tabs container, attaches base style</td>
                             </tr>
                             <tr>
                                 <td><code>.tabs-content</code></td>
@@ -536,10 +540,12 @@
                                             All modals live in parts/modals.php, <code>data-modal_content</code> is the <code>id</code> of the element to be loaded.
                                         </div>
                                         <div class="topspc">
-                                            <code>
-                                                rel="modal" data-modal_content="example"<br />
-                                                href="http://google.com" rel="external"
-                                            </code>
+                                            <pre>
+                                                <code>
+                                                    rel="modal" data-modal_content="example"<br />
+                                                    href="http://google.com" rel="external"
+                                                </code>
+                                            </pre>
                                         </div>
                                     </div>
                                 </td>
@@ -560,12 +566,14 @@
                                 <td><code>.tabs</code></td>
                                 <td>Selector ursed for main styling, tabs JavaScript is automatically loaded unless removed from load order in (app.js). A new instance of tabs can then be made via <code>new g5Tabs();</code>
                                     <div class="topspc">
-                                        <code>
+                                        <pre>
+                                            <code>
                                             var simpleTabs = new g5Tabs();<br />
                                             &nbsp;&nbsp;&nbsp;&nbsp;simpleTabs.init({<br />
                                             &nbsp;&nbsp;&nbsp;&nbsp;el: $('.simple-tabs')<br />
                                             });
-                                        </code>
+                                            </code>
+                                        </pre>
                                     </div>
                                 </td>
                             </tr>
@@ -573,13 +581,15 @@
                                 <td><code>.scroll-to</code></td>
                                 <td>On click smoothly scrolls to 70px before element with id thats equals to the anchor href value
                                     <div class="topspc">
-                                        <code>
+                                        <pre>
+                                            <code>
                                             $document.find('.scroll-to').on('click', function(){<br />
                                             &nbsp;&nbsp;&nbsp;&nbsp;var scrollDestination = $(this).attr('href');<br />
                                             &nbsp;&nbsp;&nbsp;&nbsp;$(scrollDestination).smoothScroll();<br />
                                             &nbsp;&nbsp;&nbsp;&nbsp;return false;<br />
                                             });
-                                        </code>
+                                            </code>
+                                        </pre>
                                     </div>
                                 </td>
                             </tr>
@@ -631,6 +641,7 @@
                         <li><a href="http://stackoverflow.com/questions/9638247/is-jquery-browser-deprecated">$.browser Property</a></li>
                         <li><a href="http://www.jonathantneal.com/blog/understand-the-favicon/">Understand the Favicon</a></li>
                         <li><a href="http://bradfrostweb.com/blog/mobile/the-many-faces-of-mobile-first/">The many faces of mobile first</a></li>
+                        <li><a href="http://nicolasgallagher.com/about-html-semantics-front-end-architecture/">About HTML semantics and front-end architecture</a></li>
                     </ul><!--end .list-->
                 </section><!--end #related-reading-->
 

@@ -16,10 +16,11 @@
                             <option value="breakdown">Breakdown</option>
                         </optgroup><!---->
                         <optgroup label="Examples">
-                            <option value="grid-example">Grid Example</option>
-                            <option value="buttons-example">Buttons Example</option>
-                            <option value="tabs-example">Tabs Example</option>
-                            <option value="form-example">Form Example</option>
+                            <option value="grid-example">OOCSS Grid</option>
+                            <option value="buttons-example">OOCSS Buttons</option>
+                            <option value="modals-example">Simple Modals</option>
+                            <option value="tabs-example">Simple Tabs</option>
+                            <option value="form-example">Form &amp; Validation</option>
                         </optgroup><!---->
                         <optgroup label="Documentation">
                             <option value="css-classes">CSS Classes</option>

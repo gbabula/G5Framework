@@ -28,7 +28,7 @@ only screen and (max-width: 760px),
 	
 	/* Hide table headers (but not display: none;, for accessibility) */
 	thead tr { left: -9999px; position: absolute; top: -9999px; }
-	tr { border: 1px solid #000; overflow: hidden; }
+	tr { border: 1px solid #000; }
 	/* Behave  like a "row" */
 	td { border: none; border-bottom: 1px solid #eee; position: relative; padding-left: 50%; }
 	/* Now like a table header */
@@ -89,8 +89,6 @@ and (orientation : portrait) {
 @media only screen 
 and (min-width : 1224px) {
 
-	th,
-	td { padding: 1em; }
 	td:first-child { width: 25%; }
 
 }

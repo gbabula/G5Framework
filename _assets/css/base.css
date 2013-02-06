@@ -68,7 +68,7 @@ table { border-collapse: collapse; width: 100%; }
 tr:nth-of-type(odd) { background: #eee; }
 th { background: #333; color: white; font-weight: bold; }
 td, 
-th { border: 1px solid #ccc; padding: 6px; text-align: left; }
+th { border: 1px solid #ccc; padding: 1em; text-align: left; }
 
 abbr[title],
 dfn[title] { border-bottom: 1px dotted #f2bc32; }

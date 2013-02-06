@@ -1,11 +1,17 @@
-/* Content // Modals */
+/* Modals */
 .modal { display: none; margin: 0 0 0 -45%; padding: 5%; position: absolute; top: 50%; left: 50%; width: 80%; }
 
 .overlay { position: fixed; top: 0; left: 0; z-index: 99999; display: none; height: 100%; width: 100%; }
 .overlay-bg { background: rgba(0, 0, 0, 0.6); cursor: pointer; position: relative; height: 100%; width: 100%; }
-
 .no-rgba .overlay-bg { background: url(../images/content/bg_black-op.png) repeat 0 0; }
 
 .overlay-content .modal { display: block; }
 
-.modal.standard { background: #fff; color: inherit; }
+/* Modals // Content */
+.modal.standard,
+.modal.secondary,
+.modal.exit-ramp { background: #411c15; color: inherit; }
+
+/* Modals // Touch */
+.touch .modal { margin: 0; top: 0; left: 0; width: 90%; }
+.touch .overlay { position: absolute; top: 0; left: 0; }

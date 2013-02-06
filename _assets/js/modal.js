@@ -40,7 +40,7 @@ var g5Modal = {
 		overlayBg: $('.overlay-bg'),
 		overlayContent: $('.overlay-content'),
 		openAnchor: $('a[rel="modal"], a[rel="external"]'),
-		closeAnchor: $('.modal-close, .overlay-bg')
+		closeAnchor: $('.overlay-bg, .modal-close, .exit-cancel')
 	},
 	openModal: function(el, modalType, exitLink){
 		var el = $('#' + el + ''),
@@ -51,38 +51,45 @@ var g5Modal = {
 
 		overlayContent.html(modalMarkUp);
 
-		(function() {
+		(function(){
 
 			var modalBase = overlayContent.children('.modal');
 
-			if ( modalType === 'standard' ) {
+			(function(){
+				if ( modalType === 'standard' ) {
+					modalBase.addClass('standard active');
+				} else if ( modalType === 'secondary' ) {
+					modalBase.addClass('secondary active');
+				} else if ( modalType === 'exit-ramp' ) {
+					modalBase.addClass('exit-ramp active');
 
-				modalBase.addClass('standard active');
+					var _continueLink = modalBase.find('.exit-continue');
+					_continueLink.attr({
+						href: externalLink
+						//target: '_blank'
+					});
+				}
 
-			} else if ( modalType === 'secondary' ) {
+				g5Modal.elements.overlay.fadeIn(250);
 
-				modalBase.addClass('secondary active');
+				(function(){
+					var modalHeight = modalBase.innerHeight(),
+						distanceFromTop = $(window).scrollTop();
 
-			} else if ( modalType === 'exit-ramp' ) {
+					if ( $('html').is('.touch') ) {
+						$('#top').smoothScroll();
+					} else {
+						modalBase.css('margin-top', '-' + (modalHeight / 2) + 'px');
+					}
 
-				modalBase.addClass('standard active');
+					modalBase.find('.modal-close, .exit-cancel').on('click', function(event){
+						g5Modal.closeModal();
+						$('html, body').animate({scrollTop: '' + distanceFromTop + ''});
+						event.preventDefault();
+					});
+				}());
 
-				var _continueLink = modalBase.find('.exit-continue');
-
-				_continueLink.attr({
-					href: externalLink,
-					target: '_blank'
-				});
-
-			}
-
-			g5Modal.elements.overlay.fadeIn(250);
-
-			modalBase.css('margin-top', '-' + (modalBase.innerHeight() / 2) + 'px');
-			modalBase.find('.modal-close, .exit-cancel').on('click', function(event){
-				g5Modal.closeModal();
-				event.preventDefault();
-			});
+			}());
 
 		})();
 	},
@@ -111,7 +118,6 @@ var g5Modal = {
 			event.preventDefault();
 		});
 
-		//Keyboard
 		$(document).keyup(function(e){
 			if ( g5Modal.elements.overlay.is(':visible') ) {
 		        if ( e.keyCode === 27 ) { 
@@ -122,13 +128,9 @@ var g5Modal = {
 	},
 	init: function(){
 		if ( g5Modal.elements.overlay.length <= 0 ) {
-
 			throw 'Overlay Elements Not Found';
-
 		} else {
-
 			this.events();
-
 		}
 	}
 }
