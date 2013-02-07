@@ -1,11 +1,9 @@
         <header class="island primary wrap-max" id="top" role="banner">
             <div class="wrap cf">
 
-                <h1 id="logo">
-                    <a href="/" rel="me" title="G5Framework">
-                        <span class="hidden">HTML5 Front End Development Framework - G5Framework</span>
-                    </a>
-                </h1><!--end #logo-->
+                <a href="/" id="logo" rel="me" title="G5Framework">
+                    <img src="_assets/images/g5-logo.png" alt="HTML5 Front End Development - G5Framework" />
+                </a><!--end #logo-->
 
                 <nav class="smooth primary" role="navigation">
                     <select name="primary-navigation" id="primary-navigation">

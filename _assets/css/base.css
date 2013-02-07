@@ -81,9 +81,9 @@ dfn[title] { border-bottom: 1px dotted #f2bc32; }
 .wrap { margin: 0 auto; padding: 0; width: 100%; }
 .wrap { max-width: 1024px; min-width: 200px; padding: 0 5%; width: 90%; }
 
-/* Header // Logo */ 
-#logo { margin: 0; overflow: hidden; height: 72px; width: 267px; }
-#logo a { background: url(../images/g5-logo.png) no-repeat; display: block; height: 100%; text-decoration: none; width: 100%; }
+/* Logo */ 
+#logo { border: none; display: block; margin: 0; overflow: hidden; height: 72px; text-decoration: none; width: 267px; }
+#logo:hover { background: transparent; }
 
 /* Content // Base */ 
 .content { margin: 2em auto; padding: 0 0 20em 0; text-align: left; }

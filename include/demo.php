@@ -74,7 +74,7 @@
                             <li><a href="http://jquery.com/">jQuery 1.9.0</a>
                                 <ul class="list">
                                     <li><a href="#tabs-example" class="scroll-to">Simple Tabs</a></li>
-                                    <li>Simple Modals (<a href="#" rel="modal" data-modal_content="example">Example</a>, <a href="http://gregbabula.com" rel="external">Exit Ramp</a>)</li>
+                                    <li>Simple Adaptive Modals (<a href="#" rel="modal" data-modal_content="example">Example</a>, <a href="http://gregbabula.com" rel="external">Exit Ramp</a>)</li>
                                     <li><a href="#form-example" class="scroll-to">Form Example</a>
                                         <ul class="list">    
                                             <li><a href="https://github.com/jquery/jquery-metadata">jQuery Metadata</a></li>
@@ -217,7 +217,7 @@
                 </section><!--end #buttons-example-->
 
                 <section class="island" id="modals-example">
-                    <h1><a href="#modals-example">#</a> Simple Modals</h1>
+                    <h1><a href="#modals-example">#</a> Simple Adaptive Modals</h1>
 
                     <div class="line">
                         <a href="#" class="button secondary brdr brdr-secondary" rel="modal" data-modal_content="example">Modal Example</a>
@@ -533,7 +533,7 @@
                         <tbody>
                             <tr>
                                 <td><code>.overlay</code></td>
-                                <td>If element present, loads modal.js file and attaches events. Can be enabled/disabled via <code>WebApp.init(obj);</code>
+                                <td>Can be enabled/disabled via <code>WebApp.init(obj);</code>
                                     <div class="topspc">
                                         To launch a modal, <code>rel="modal"</code> attribute and <code>modal_content</code> data attribute are required. To launch an exit ramp, <code>rel="external"</code> and the external href is required.
                                         <div class="topspc">

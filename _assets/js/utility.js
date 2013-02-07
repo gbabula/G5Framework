@@ -84,18 +84,16 @@ G5App.prototype.assets = function(obj){
         }
 	}
 	if ( simpleModals ) {
-        if ( this.cache.document.find('.overlay').length ) {
-            yepnope([
-                {
-                    load: [
-                        '_assets/js/modal.js'
-                    ],
-                    complete: function(){
-                        g5Modal.init();
-                    }
+        yepnope([
+            {
+                load: [
+                    '_assets/js/modal.js'
+                ],
+                complete: function(){
+                    g5Modal.init();
                 }
-            ]);
-        }
+            }
+        ]);
 	}
 	if ( jQueryFormValidation ) {
         if ( this.cache.document.find('.form-validation').length ) {

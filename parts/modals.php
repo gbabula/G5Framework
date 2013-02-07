@@ -1,8 +1,3 @@
-<div class="overlay">
-    <div class="overlay-bg">&nbsp;</div>
-    <div class="overlay-content">&nbsp;</div>
-</div><!--end .overlay-->
-
 <section id="exit-ramp">
     <article class="modal shdw-tertiary">
 
