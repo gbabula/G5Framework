@@ -1,0 +1,116 @@
+/*
+display: inline-block;
+padding-right: .8em;
+vertical-align: middle;
+zoom: 1;
+*/
+.iconfont:before, .iconfont i, .iconfont-right:before, .iconfont-right i
+						{
+						font-family: "modern_pictogramsnormal";
+						display: inline-block;
+						vertical-align: middle;
+						zoom: 1;
+						font-size: 1.2em;
+						line-height: 1em;
+						}
+
+.iconfont i, .iconfont-right i
+						{ font-style: normal; }
+
+.iconfont:before, .iconfont i
+						{ float: left; padding-right: .8em; }
+						
+.iconfont-right:before, .iconfont-right i
+						{
+						float: right;
+						padding-left: .8em;
+						}
+
+.caution:before			{ content:'!'; }
+.dollar:before			{ content:'#'; }
+.money:before			{ content:'$'; }
+.check:before			{ content:'%'; }
+.star:before			{ content:'*'; }
+.construction:before	{ content:'('; }
+.ribbon:before			{ content:')'; }
+.plus:before			{ content:'+'; }
+.cart:before			{ content:'.'; }
+.map-pin:before			{ content:','; }
+.stop-sign:before		{ content:'\''; }
+.up-arrow:before		{ content:'-'; }
+.down-arrow:before		{ content:'/'; }
+.sound-mute:before		{ content:'0'; }
+.sound-down:before		{ content:'1'; }
+.sound-up:before		{ content:'2'; }
+.graph:before			{ content:'3'; }
+.list:before			{ content:'4'; }
+.sliders:before			{ content:'5'; }
+.graph:before			{ content:'6'; }
+.bar-chart:before		{ content:'7'; }
+.pie-chart:before		{ content:'8'; }
+.bell:before			{ content:'9'; }
+.left-arrow:before		{ content:'<'; }
+.info:before			{ content:'='; }
+.right-arrow:before		{ content:'>'; }
+.question:before		{ content:'?'; }
+.at-symbol:before		{ content:'@'; }
+.camera:before			{ content:'A'; }
+.book:before			{ content:'B'; }
+.dvd:before				{ content:'C'; }
+.download:before		{ content:'D'; }
+.eye:before				{ content:'E'; }
+.facebook-light:before	{ content:'F'; }
+.facebook-dark:before	{ content:'G'; }
+.camera:before			{ content:'H'; }
+.trash:before			{ content:'I'; }
+.pricetag:before		{ content:'J'; }
+.document:before		{ content:'K'; }
+.thumbs-down:before		{ content:'L'; }
+.ipod:before			{ content:'M'; }
+.cell-phone:before		{ content:'N'; }
+.smart-phone:before		{ content:'O'; }
+.video-play:before		{ content:'P'; }
+.tablet:before			{ content:'Q'; }
+.reload:before			{ content:'R'; }
+.projector:before		{ content:'S'; }
+.twitter-light:before	{ content:'T'; }
+.twitter-dark:before	{ content:'U'; }
+.writing:before			{ content:'V'; }
+.windows:before			{ content:'W'; }
+.close:before			{ content:'X'; }
+.megaphone:before		{ content:'Y'; }
+.text-ragging:before	{ content:'Z'; }
+.down-arrow:before		{ content:'['; }
+.grid:before			{ content:'\\'; }
+.up-arrow:before		{ content:']'; }
+.rss:before				{ content:'^'; }
+.drawers:before			{ content:'_'; }
+.news:before			{ content:'a'; }
+.message:before			{ content:'b'; }
+.phone:before			{ content:'c'; }
+.print:before			{ content:'d'; }
+.write:before			{ content:'e'; }
+.man:before				{ content:'f'; }
+.people:before			{ content:'g'; }
+.video:before			{ content:'h'; }
+.cart:before			{ content:'i'; }
+.heart:before			{ content:'j'; }
+.woman:before			{ content:'k'; }
+.thumbs-up:before		{ content:'l'; }
+.mail:before			{ content:'m'; }
+.lock:before			{ content:'n'; }
+.forward:before			{ content:'o'; }
+.house:before			{ content:'p'; }
+.unlock:before			{ content:'q'; }
+.pencil:before			{ content:'r'; }
+.search:before			{ content:'s'; }
+.bird:before			{ content:'t'; }
+.not-fullscreen:before	{ content:'u'; }
+.fullscreen:before		{ content:'v'; }
+.globe:before			{ content:'w'; }
+.close-circle:before	{ content:'x'; }
+.zoom-in:before			{ content:'y'; }
+.zoom-out:before		{ content:'z'; }
+.time-exact:before		{ content:'{'; }
+.time:before			{ content:'}'; }
+/* .:before			{ content:''; }  */
