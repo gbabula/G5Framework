@@ -18,7 +18,8 @@
 .inblock { display: inline-block; *display: inline; zoom: 1; }
 
 /* Global Classes // Display */ 
-.error { color: #ff0000; }
+.error,
+.invalid { color: #ff0000; }
 .success,
 .valid { color: #00ff00; }
 

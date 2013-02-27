@@ -9,4 +9,4 @@
 
 .tabs-content { clear: both; }
 .tabs-content .tab { display: none; margin: 0; padding: 0; }
-.tabs-content .tab.active { display: block; }
+.tabs-content .active { display: block; }

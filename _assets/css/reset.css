@@ -156,7 +156,6 @@ input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
 input[type="radio"] { vertical-align: text-bottom; }
 input[type="checkbox"] { vertical-align: bottom; *vertical-align: baseline; }
 
-input:valid, textarea:valid {  }
 input:invalid, textarea:invalid { background-color: #f0dddd; }
 
 .ie6 input { vertical-align: text-bottom; }
