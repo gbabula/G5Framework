@@ -2,19 +2,19 @@
 @media only screen 
 and (max-width : 480px) {
 
-	html { font-size: 120%; line-height: 1.5em; }
+    html { font-size: 120%; line-height: 1.5em; }
 
-	.unit { float: none !important; width: auto !important; }
+    .unit { float: none !important; width: auto !important; }
 
-	fieldset select { display: block; }
+    fieldset select { display: block; }
 
 }
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen 
 and (min-width : 481px) {
-	
-	html { font-size: 115%;	}
+    
+    html { font-size: 115%; }
 
 }
 
@@ -23,31 +23,31 @@ and (min-width : 481px) {
 only screen and (max-width: 760px),
 (min-device-width: 768px) and (max-device-width: 1024px)  {
 
-	/* Force table to not be like tables anymore */
-	table, thead, tbody, th, td, tr { display: block; }
-	
-	/* Hide table headers (but not display: none;, for accessibility) */
-	thead tr { left: -9999px; position: absolute; top: -9999px; }
-	tr { border: 1px solid #000; }
-	/* Behave  like a "row" */
-	td { border: none; border-bottom: 1px solid #eee; position: relative; padding-left: 50%; }
-	/* Now like a table header */
-	td:before { left: 1em; padding-right: 1em; position: absolute; top: .3em; width: 45%; white-space: nowrap; }
+    /* Force table to not be like tables anymore */
+    table, thead, tbody, th, td, tr { display: block; }
+    
+    /* Hide table headers (but not display: none;, for accessibility) */
+    thead tr { left: -9999px; position: absolute; top: -9999px; }
+    tr { border: 1px solid #000; }
+    /* Behave  like a "row" */
+    td { border: none; border-bottom: 1px solid #eee; position: relative; padding-left: 50%; }
+    /* Now like a table header */
+    td:before { left: 1em; padding-right: 1em; position: absolute; top: .3em; width: 45%; white-space: nowrap; }
 
-	/* Label the data */
-	.css-classes-table td:nth-of-type(1):before { content: "Class"; }
-	.css-classes-table td:nth-of-type(2):before { content: "Description"; }
+    /* Label the data */
+    .css-classes-table td:nth-of-type(1):before { content: "Class"; }
+    .css-classes-table td:nth-of-type(2):before { content: "Description"; }
 
-	.js-hooks-table td:nth-of-type(1):before { content: "Selector"; }
-	.js-hooks-table td:nth-of-type(2):before { content: "Information"; }
+    .js-hooks-table td:nth-of-type(1):before { content: "Selector"; }
+    .js-hooks-table td:nth-of-type(2):before { content: "Information"; }
 
 }
 
 /* WIN8 */
 @media screen and (max-width:400px) {
-	@-ms-viewport{
-	    width: device-width;
-	}
+    @-ms-viewport{
+        width: device-width;
+    }
 }
 
 /* Smartphones (landscape) ----------- */
@@ -89,7 +89,7 @@ and (orientation : portrait) {
 @media only screen 
 and (min-width : 1224px) {
 
-	td:first-child { width: 25%; }
+    td:first-child { width: 25%; }
 
 }
 

@@ -55,16 +55,16 @@
 /* Demo Page // Print */
 @media print {
 
-	#bottom .navigation-object,
-	#form-example,
-	.demo-page [role="navigation"] { display: none; }
+    #bottom .navigation-object,
+    #form-example,
+    .demo-page [role="navigation"] { display: none; }
 
 }
 
 @media only screen 
 and (max-width : 480px) {
 
-	.demo-page #top { margin-top: 3.5em; }
-	.demo-page [role="navigation"] { background: rgba(0, 0, 0, 0.6); box-shadow: 0 0 2em rgba(0, 0, 0, 1); padding: 1em 5%; }
+    .demo-page #top { margin-top: 3.5em; }
+    .demo-page [role="navigation"] { background: rgba(0, 0, 0, 0.6); box-shadow: 0 0 2em rgba(0, 0, 0, 1); padding: 1em 5%; }
 
 }

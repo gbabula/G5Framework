@@ -22,13 +22,13 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, figure, footer, header, 
 hgroup, menu, nav, section, menu,
 time, mark, audio, video {
-  margin:0;
-  padding:0;
-  border:0;
-  outline:0;
-  font-size:100%;
-  vertical-align:baseline;
-  background:transparent;
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
 }                  
 
 /* 

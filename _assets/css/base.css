@@ -1,24 +1,24 @@
 /* 
 
-	G5Framework
+    G5Framework
 
-	===================================================
+    ===================================================
 
-	TODO : Concatenate & Minify CSS Pre-production
+    TODO : Concatenate & Minify CSS Pre-production
 
-	Imports are only for convenience during development!
-	
-	====================================================
+    Imports are only for convenience during development!
+    
+    ====================================================
 
-	00 		Reset
-	01		Grid
-	02 		Fonts
-	03 		Global Classes
-	04 		Forms
-	05 		Modals
-	06 		Tabs
+    00      Reset
+    01      Grid
+    02      Fonts
+    03      Global Classes
+    04      Forms
+    05      Modals
+    06      Tabs
 
-	07 		Demo Page CSS
+    07      Demo Page CSS
 
 */
 
@@ -34,12 +34,12 @@
 
 /* 
 
-	For projects IE8+
-	Natural Box Model // Position inline blocks properly
+    For projects IE8+
+    Natural Box Model // Position inline blocks properly
 
-	*, 
-	*:before, 
-	*:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; vertical-align: text-top; }
+    *, 
+    *:before, 
+    *:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; vertical-align: text-top; }
 
 */
 
@@ -74,7 +74,7 @@ abbr[title],
 dfn[title] { border-bottom: 1px dotted #f2bc32; }
 
 /* Main */ 
-#main { margin: 0 auto; padding: 0; position: relative; min-height: 100%; width: 100%; }	
+#main { margin: 0 auto; padding: 0; position: relative; min-height: 100%; width: 100%; }    
 
 /* Main // Wrappers */ 
 .wrap-max,

@@ -1,53 +1,53 @@
-	
-	/* PROJECT */
-	
-	G5Framework [v5]
+    
+    /* PROJECT */
+    
+    G5Framework [v5]
 
 
-	/* TEAM */
-	
-	
+    /* TEAM */
+    
+    
 
 
-	/* CREDITS */
+    /* CREDITS */
 
-	G5Framework
-	Greg Babula
+    G5Framework
+    Greg Babula
 
-	Modernizr
-	Faruk Ates, Paul Irish, Alex Sexton
+    Modernizr
+    Faruk Ates, Paul Irish, Alex Sexton
 
-	Reset + HTML5 baseline + Normalize + Print Base + Clearfix
-	Paul Irish, Eric Meyer, Nicolas Gallagher
+    Reset + HTML5 baseline + Normalize + Print Base + Clearfix
+    Paul Irish, Eric Meyer, Nicolas Gallagher
 
-	CSS3 PIE
-	Jason Johnston
+    CSS3 PIE
+    Jason Johnston
 
-	jQuery
-	John Resig & jQuery Board
+    jQuery
+    John Resig & jQuery Board
 
-	jQuery Validate
-	Jorn Zaefferer
+    jQuery Validate
+    Jorn Zaefferer
 
-	jQuery Metadata
-	John Resig, Yehuda Katz, Jorn Zaefferer, Paul McLanahan
+    jQuery Metadata
+    John Resig, Yehuda Katz, Jorn Zaefferer, Paul McLanahan
 
-	jQuery Placeholder Fallback
-	Daniel Stocks
+    jQuery Placeholder Fallback
+    Daniel Stocks
 
-	jQuery customInput Plugin
-	Maggie Costello Wachs & Scott Jehl
+    jQuery customInput Plugin
+    Maggie Costello Wachs & Scott Jehl
 
-	iOS Orientation Fix
-	Scott Jehl & Mat Marquis
+    iOS Orientation Fix
+    Scott Jehl & Mat Marquis
 
-	OOCSS Grid
-	Nicole Sullivan
+    OOCSS Grid
+    Nicole Sullivan
 
-	Responsive Tables
-	Chris Coyier
+    Responsive Tables
+    Chris Coyier
 
 
-	/* ACKNOWLEDGEMENTS */
+    /* ACKNOWLEDGEMENTS */
 
-	DraftFCB NY - for supporting the project.
+    DraftFCB NY - for supporting the project.
