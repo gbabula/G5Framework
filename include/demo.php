@@ -1,18 +1,32 @@
                 <article class="first" id="download">
-                    <p><em>Web boilerplate stack (<a href="#html5" class="scroll-to">HTML5</a>, <a href="#css3" class="scroll-to">CSS3</a>, <a href="#jquery" class="scroll-to">jQuery</a>, and <a href="#php" class="scroll-to">PHP</a>). G5Framework provides some rock-solid code and functionality for you to start with, however it leaves all the remaining development and styling up to the developer.</em></p>
+                    <p><em>Web boilerplate stack (<a href="#html5" class="scroll-to">HTML5</a>, <a href="#css3" class="scroll-to">CSS3</a>, 
+                        <a href="#jquery" class="scroll-to">jQuery</a>, and <a href="#php" class="scroll-to">PHP</a>). 
+                        G5Framework provides some rock-solid code and functionality for you to start with, however it leaves all the 
+                        remaining development and styling up to the developer.</em></p>
                     
-                    <p class="topspc"><span class="t-icon">K</span> <strong>License:</strong> Must leave reference to <a href="humans.txt">humans.txt</a></p>
-                    <p><span class="t-icon">D</span> <strong>Download:</strong> <a href="https://github.com/gbabula/G5Framework/archive/master.zip">ZIP</a>, <a href="https://github.com/gbabula/G5Framework">Source on GitHub</a></p>
+                    <p class="topspc"><span class="t-icon">K</span> <strong>License:</strong> Must leave reference 
+                        to <a href="humans.txt">humans.txt</a></p>
+                    <p><span class="t-icon">D</span> <strong>Download:</strong> 
+                        <a href="https://github.com/gbabula/G5Framework/archive/master.zip">ZIP</a>, 
+                        <a href="https://github.com/gbabula/G5Framework">Source on GitHub</a></p>
                 </article><!--end #download-->
 
                 <section class="island" id="faq">
                     <h1><a href="#faq">#</a> FAQ</h1>
                     <dl>
                         <dt>Q: What is the main objective?</dt>
-                        <dd>To increase the speed of development while maintaining code quality, structure, consistency, and promoting standards and good principles.</dd>
+                        <dd>To increase the speed of development while maintaining code quality, structure, 
+                            consistency, and promoting standards and good principles.</dd>
 
-                        <dt>Q: How is G5Framework different from <a href="http://twitter.github.com/bootstrap/">Bootstrap</a> and/or <a href="http://html5boilerplate.com/">HTML5BP</a></dt>
-                        <dd>The main purpose is the same, to provide a solid start point for web projects. However the overall product is different and assumes many different web developent principles. Also unlike Bootstrap, G5Framework leaves the <abbr title="User Interface">UI</abbr> development up to you (the developer).</dd>
+                        <dt>Q: How is G5Framework different from <a href="http://twitter.github.com/bootstrap/">Bootstrap</a> 
+                            and/or <a href="http://html5boilerplate.com/">HTML5BP</a></dt>
+                        <dd>The main purpose is the same, to provide a solid start point for web projects. However the 
+                            overall product is different and assumes many different web developent principles. Also unlike Bootstrap, 
+                            G5Framework leaves the <abbr title="User Interface">UI</abbr> development up to you (the developer).</dd>
+
+                        <dt>Q: I don't like PHP, whats the deal?</dt>
+                        <dd>PHP use is pretty minimal, and it will only take a few minutes to strip out all the PHP from the 
+                            project, so if you want to use the other stuff you still can with minial effort.</dd>
 
                         <dt>Q: What browsers are supported?</dt>
                         <dd>IE7+, Chrome, Firefox, Safari, Opera</dd>
@@ -24,19 +38,20 @@
                         <dd>Because it's much different than your usual boilerplate.</dd>
 
                         <dt>Q: What style guide does the boilerplate use?</dt>
-                        <dd>G5Framework uses Google's <a href="http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml">HTML/CSS</a>/<a href="http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml">JS</a> style guides.</dd>
+                        <dd>G5Framework uses Google's <a href="http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml">HTML/CSS</a>/
+                            <a href="http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml">JS</a> style guides.</dd>
 
                         <dt>Q: Can I use G5Framework for commercial projects?</dt>
-                        <dd>Use it for anything you need, however you are required to leave a reference to the <a href="humans.txt">humans.txt</a> file.</dd>
-
-                        <dt>Q: I don't like PHP, whats the deal?</dt>
-                        <dd>PHP use is pretty minimal, and it will only take a few minutes to strip out all the PHP from the project, so if you want to use the other stuff you still can with minial effort.</dd>
+                        <dd>Use it for anything you need, however you are required to leave a reference to the 
+                            <a href="humans.txt">humans.txt</a> file.</dd>
 
                         <dt>Q: I don't want to use jQuery and/or I want to handle my JS differently.</dt>
-                        <dd>Open up app.js and adjust whatever you need, besides Modernizr which always needs to live in the head, all JS is referenced from app.js (which lives before the closing body tag).</dd>
+                        <dd>Open up app.js and adjust whatever you need, besides Modernizr which always needs to live in the head, 
+                            all JS is referenced from app.js (which lives before the closing body tag).</dd>
 
                         <dt>Q: Who created G5Framework?</dt>
-                        <dd>The project is managed by <a href="http://gregbabula.info">Greg Babula</a>, see <a href="humans.txt">humans.txt</a> for the full list of authors.</dd>
+                        <dd>The project is managed by <a href="http://gregbabula.info">Greg Babula</a>, see <a href="humans.txt">humans.txt</a> 
+                            for the full list of authors.</dd>
                     </dl>
                 </section><!--end #faq-->
 
@@ -45,55 +60,122 @@
                     <h2 id="html5">HTML</h2>
 
                         <ul class="list">
-                            <li><a href="http://microformats.org/wiki/posh">POSH</a> (Plain Old Semantic HTML)</li>
-                            <li><a href="http://microformats.org/">Microformats</a></li>
-                            <li>Accessibility</li>
-                            <li>SEO</li>
-                            <li>Favicons <a href="http://www.jonathantneal.com/blog/understand-the-favicon/">for everyone</a></li>
+                            <li>
+                                <a href="http://microformats.org/wiki/posh">POSH</a> (Plain Old Semantic HTML)
+                            </li>
+                            <li>
+                                <a href="http://microformats.org/">Microformats</a>
+                            </li>
+                            <li>
+                                Accessibility
+                            </li>
+                            <li>
+                                SEO
+                            </li>
+                            <li>
+                                Favicons <a href="http://www.jonathantneal.com/blog/understand-the-favicon/">for everyone</a>
+                            </li>
                         </ul><!--end .list-->
 
                     <h2 id="css3">CSS</h2>
 
                         <ul class="list">
-                            <li>Reset + HTML5 Baseline + Normalize + Print Base</li>
-                            <li><a href="http://css3pie.com/">CSS3 Pie 2</a></li>
-                            <li>OOCSS</li>
-                            <li><a href="#grid-example" class="scroll-to">OOCSS Grid</a></li>
-                            <li><a href="#buttons-example" class="scroll-to">OOCSS Buttons</a></li>
-                            <li>Responsive (Under 480px gets <a href="https://github.com/stubbornella/oocss/blob/master/core/grid/grids_iphone.css">1 col layout</a>)</li>
-                            <li>Responsive Tables</li>
-                            <li><a href="#css-classes" class="scroll-to">Reusable cross-browser classes</a></li>
-                            <li>@font-face <a href="http://www.fontsquirrel.com/fonts/modern-pictograms">Icon font</a></li>
+                            <li>
+                                Reset + HTML5 Baseline + Normalize + Print Base
+                            </li>
+                            <li>
+                                <a href="http://css3pie.com/">CSS3 Pie 2</a>
+                            </li>
+                            <li>
+                                OOCSS
+                            </li>
+                            <li>
+                                <a href="#grid-example" class="scroll-to">OOCSS Grid</a>
+                            </li>
+                            <li>
+                                <a href="#buttons-example" class="scroll-to">OOCSS Buttons</a>
+                            </li>
+                            <li>
+                                Responsive (Under 480px gets <a href="https://github.com/stubbornella/oocss/blob/master/core/grid/grids_iphone.css">
+                                1 col layout</a>)
+                            </li>
+                            <li>
+                                Responsive Tables
+                            </li>
+                            <li>
+                                <a href="#css-classes" class="scroll-to">Reusable cross-browser classes</a>
+                            </li>
+                            <li>
+                                @font-face <a href="http://www.fontsquirrel.com/fonts/modern-pictograms">Icon font</a>
+                            </li>
                         </ul><!--end .list-->
 
                     <h2 id="jquery">jQuery/JavaScript</h2>
 
                         <ul class="list">
-                            <li><a href="http://modernizr.com/">Modernizr 2.6.2</a></li>
-                            <li><a href="https://github.com/scottjehl/iOS-Orientationchange-Fix">iOS Orientation Fix</a></li>
-                            <li><a href="http://jquery.com/">jQuery 1.9.0</a>
+                            <li>
+                                <a href="http://modernizr.com/">Modernizr 2.6.2</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/scottjehl/iOS-Orientationchange-Fix">iOS Orientation Fix</a>
+                            </li>
+                            <li>
+                                <a href="http://jquery.com/">jQuery 1.9.0</a>
+                                
                                 <ul class="list">
-                                    <li><a href="#tabs-example" class="scroll-to">Simple Tabs</a></li>
-                                    <li>Simple Adaptive Modals (<a href="#" rel="modal" data-modal_content="example">Example</a>, <a href="http://gregbabula.com" rel="external">Exit Ramp</a>)</li>
-                                    <li><a href="#form-example" class="scroll-to">Form Example</a>
+                                    <li>
+                                        <a href="#tabs-example" class="scroll-to">Simple Tabs</a>
+                                    </li>
+                                    <li>
+                                        Simple Adaptive Modals (<a href="#" rel="modal" data-modal_content="example">Example</a>, 
+                                        <a href="http://gregbabula.com" rel="external">Exit Ramp</a>)
+                                    </li>
+                                    <li>
+                                        <a href="#form-example" class="scroll-to">Form Example</a>
+
                                         <ul class="list">    
-                                            <li><a href="https://github.com/jquery/jquery-metadata">jQuery Metadata</a></li>
-                                            <li><a href="https://github.com/filamentgroup/jQuery-Custom-Input">jQuery Custom Input</a> (Radio/Checkbox replacement)</li>
-                                            <li><a href="https://github.com/danielstocks/jQuery-Placeholder">jQuery Placeholder Fallback</a></li>
-                                            <li><a href="http://docs.jquery.com/Plugins/Validation">jQuery Validation</a></li>
+                                            <li>
+                                                <a href="https://github.com/jquery/jquery-metadata">jQuery Metadata</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://github.com/filamentgroup/jQuery-Custom-Input">jQuery Custom Input</a> 
+                                                (Radio/Checkbox replacement)
+                                            </li>
+                                            <li>
+                                                <a href="https://github.com/danielstocks/jQuery-Placeholder">jQuery Placeholder Fallback</a>
+                                            </li>
+                                            <li>
+                                                <a href="http://docs.jquery.com/Plugins/Validation">jQuery Validation</a>
+                                            </li>
                                         </ul><!--end .list-->
                                     </li>
                                 </ul><!--end .list-->
 
                                 <ul class="list">
-                                    <li>Strict Mode</li>
-                                    <li>Console.log fallback</li>
-                                    <li>jQuery from CDN with local fallback</li>
-                                    <li>Asset loading via YepNope</li>
-                                    <li>Cache main elements</li>
-                                    <li>Cache location</li>
-                                    <li>Smooth scroll</li>
-                                    <li>Print</li>
+                                    <li>
+                                        Strict Mode
+                                    </li>
+                                    <li>
+                                        Console.log fallback
+                                    </li>
+                                    <li>
+                                        jQuery from CDN with local fallback
+                                    </li>
+                                    <li>
+                                        Asset loading via YepNope
+                                    </li>
+                                    <li>
+                                        Cache main elements
+                                    </li>
+                                    <li>
+                                        Cache location
+                                    </li>
+                                    <li>
+                                        Smooth scroll
+                                    </li>
+                                    <li>
+                                        Print
+                                    </li>
                                 </ul><!--end .list-->
                             </li>
                         </ul><!--end .list-->
@@ -101,9 +183,15 @@
                     <h2 id="php">PHP</h2>
 
                         <ul class="list">
-                            <li>GZIP</li>
-                            <li>Canonical URL</li>
-                            <li>Include</li>
+                            <li>
+                                GZIP
+                            </li>
+                            <li>
+                                Canonical URL
+                            </li>
+                            <li>
+                                Include
+                            </li>
                         </ul><!--end .list-->
 
                 </section><!--end #breakdown-->
@@ -192,27 +280,51 @@
                     </div><!--end .line-->
 
                     <div class="line btmspc">
-                        <a href="#" class="button secondary brdr brdr-primary"><span class="t-icon">l</span>Secondary Button</a>
-                        <a href="#" class="button secondary brdr brdr-primary"><span class="t-icon">L</span>Secondary Button</a>
-                        <a href="#" class="button secondary brdr brdr-primary"><span class="t-icon">f</span>Secondary Button</a>
+                        <a href="#" class="button secondary brdr brdr-primary">
+                            <span class="t-icon">l</span>Secondary Button
+                        </a>
+                        <a href="#" class="button secondary brdr brdr-primary">
+                            <span class="t-icon">L</span>Secondary Button
+                        </a>
+                        <a href="#" class="button secondary brdr brdr-primary">
+                            <span class="t-icon">f</span>Secondary Button
+                        </a>
                     </div><!--end .line-->
 
                     <div class="line btmspc">
-                        <a href="#" class="button secondary brdr brdr-secondary"><span class="t-icon">m</span>Secondary Button</a>
-                        <a href="#" class="button secondary brdr brdr-secondary"><span class="t-icon">w</span>Secondary Button</a>
-                        <a href="#" class="button secondary brdr brdr-secondary">Secondary Button<span class="t-icon right">x</span></a>
+                        <a href="#" class="button secondary brdr brdr-secondary">
+                            <span class="t-icon">m</span>Secondary Button
+                        </a>
+                        <a href="#" class="button secondary brdr brdr-secondary">
+                            <span class="t-icon">w</span>Secondary Button
+                        </a>
+                        <a href="#" class="button secondary brdr brdr-secondary">
+                            Secondary Button<span class="t-icon right">x</span>
+                        </a>
                     </div><!--end .line-->
 
                     <div class="line btmspc">
-                        <a href="#" class="button tertiary brdr brdr-primary"><span class="t-icon">=</span>Tertiary Button</a>
-                        <a href="#" class="button tertiary brdr brdr-primary"><span class="t-icon">!</span>Tertiary Button</a>
-                        <a href="#" class="button tertiary brdr brdr-primary"><span class="t-icon">^</span>Tertiary Button</a>
+                        <a href="#" class="button tertiary brdr brdr-primary">
+                            <span class="t-icon">=</span>Tertiary Button
+                        </a>
+                        <a href="#" class="button tertiary brdr brdr-primary">
+                            <span class="t-icon">!</span>Tertiary Button
+                        </a>
+                        <a href="#" class="button tertiary brdr brdr-primary">
+                            <span class="t-icon">^</span>Tertiary Button
+                        </a>
                     </div><!--end .line-->
 
                     <div class="line">
-                        <a href="#" class="button tertiary brdr brdr-secondary"><span class="t-icon">i</span>Tertiary Button</a>
-                        <a href="#" class="button tertiary brdr brdr-secondary"><span class="t-icon">j</span>Tertiary Button</a>
-                        <a href="#" class="button tertiary brdr brdr-secondary">Tertiary Button<span class="t-icon right">}</span></a>
+                        <a href="#" class="button tertiary brdr brdr-secondary">
+                            <span class="t-icon">i</span>Tertiary Button
+                        </a>
+                        <a href="#" class="button tertiary brdr brdr-secondary">
+                            <span class="t-icon">j</span>Tertiary Button
+                        </a>
+                        <a href="#" class="button tertiary brdr brdr-secondary">
+                            Tertiary Button<span class="t-icon right">}</span>
+                        </a>
                     </div><!--end .line-->
                 </section><!--end #buttons-example-->
 
@@ -220,8 +332,12 @@
                     <h1><a href="#modals-example">#</a> Simple Adaptive Modals</h1>
 
                     <div class="line">
-                        <a href="#" class="button secondary brdr brdr-secondary" rel="modal" data-modal_content="example">Modal Example</a>
-                        <a href="http://gregbabula.com" class="button secondary brdr brdr-secondary" rel="external">Exit Ramp</a>
+                        <a href="#" class="button secondary brdr brdr-secondary" rel="modal" data-modal_content="example">
+                            Modal Example
+                        </a>
+                        <a href="http://gregbabula.com" class="button secondary brdr brdr-secondary" rel="external">
+                            Exit Ramp
+                        </a>
                     </div><!--end .line-->
                 </section><!--end #modals-example-->
 
@@ -230,9 +346,15 @@
 
                     <section class="tabs simple-tabs">
                         <ul class="cf">
-                            <li class="active"><a href="#" class="first headlink">Tab One</a></li>
-                            <li><a href="#" class="headlink">Tab Two</a></li>
-                            <li><a href="#" class="headlink">Tab Three</a></li>
+                            <li class="active">
+                                <a href="#" class="first headlink">Tab One</a>
+                            </li>
+                            <li>
+                                <a href="#" class="headlink">Tab Two</a>
+                            </li>
+                            <li>
+                                <a href="#" class="headlink">Tab Three</a>
+                            </li>
                         </ul>
 
                         <div class="tabs-content cf">
@@ -338,7 +460,8 @@
                             </tr>
                             <tr>
                                 <td><code>.line</code></td>
-                                <td>Groups units on one horizontal line. <em>Note:</em> for mobile layout units may be stacked to avoid horizontal scrolling.</td>
+                                <td>Groups units on one horizontal line. <em>Note:</em> for mobile layout units may be stacked 
+                                    to avoid horizontal scrolling.</td>
                             </tr>
                             <tr>
                                 <td><code>.unit</code></td>
@@ -346,7 +469,9 @@
                             </tr>
                             <tr>
                                 <td><code>.sizeXofY</code></td>
-                                <td>Extends unit. Indicates the fractional width of the unit, for example size3of4 would take up three quarters, or 75%, of the horizontal space. The following fractions are supported: 1, 1/2, 1/3, 2/3, 1/4, 3/4, 1/5, 2/5, 3/5, 4/5</td>
+                                <td>Extends unit. Indicates the fractional width of the unit, for example size3of4 would take 
+                                    up three quarters, or 75%, of the horizontal space. The following fractions are supported: 
+                                    1, 1/2, 1/3, 2/3, 1/4, 3/4, 1/5, 2/5, 3/5, 4/5</td>
                             </tr>
                             <tr>
                                 <td><code>.lastUnit</code></td>
@@ -535,9 +660,11 @@
                                 <td><code>.overlay</code></td>
                                 <td>Can be enabled/disabled via <code>WebApp.init(obj);</code>
                                     <div class="topspc">
-                                        To launch a modal, <code>rel="modal"</code> attribute and <code>modal_content</code> data attribute are required. To launch an exit ramp, <code>rel="external"</code> and the external href is required.
+                                        To launch a modal, <code>rel="modal"</code> attribute and <code>modal_content</code> data attribute are required. 
+                                        To launch an exit ramp, <code>rel="external"</code> and the external href is required.
                                         <div class="topspc">
-                                            All modals live in parts/modals.php, <code>data-modal_content</code> is the <code>id</code> of the element to be loaded.
+                                            All modals live in parts/modals.php, <code>data-modal_content</code> is the <code>id</code> of the element 
+                                            to be loaded.
                                         </div>
                                         <div class="topspc">
                                             <pre>
@@ -552,7 +679,8 @@
                             </tr>
                             <tr>
                                 <td><code>.form-validation</code></td>
-                                <td>If element present, loads jquery.validate.min.js, validation.js, and attaches form validation events to all forms with the class <code>.form-validation</code>. Can be enabled/disabled via <code>WebApp.init(obj);</code>
+                                <td>If element present, loads jquery.validate.min.js, validation.js, and attaches form validation events 
+                                    to all forms with the class <code>.form-validation</code>. Can be enabled/disabled via <code>WebApp.init(obj);</code>
                                     <div class="topspc">
                                         validation.js provides additional regex methods, overall validation pattern, and AJAX example.
                                     </div>
@@ -560,11 +688,13 @@
                             </tr>
                             <tr>
                                 <td><code>.replace-input</code></td>
-                                <td>If element present, loads jquery.customInput.js and replaces any checkbox or radio input that has the class <code>.replace-input</code>.  Can be enabled/disabled via <code>WebApp.init(obj);</code></td>
+                                <td>If element present, loads jquery.customInput.js and replaces any checkbox or radio input 
+                                    that has the class <code>.replace-input</code>.  Can be enabled/disabled via <code>WebApp.init(obj);</code></td>
                             </tr>
                             <tr>
                                 <td><code>.tabs</code></td>
-                                <td>Selector ursed for main styling, tabs JavaScript is automatically loaded unless removed from load order in (app.js). A new instance of tabs can then be made via <code>new g5Tabs();</code>
+                                <td>Selector ursed for main styling, tabs JavaScript is automatically loaded unless removed from 
+                                    load order in (app.js). A new instance of tabs can then be made via <code>new g5Tabs();</code>
                                     <div class="topspc">
                                         <pre>
                                             <code>
@@ -603,55 +733,143 @@
 
                 <section class="island" id="principles">
                     <h1><a href="#principles">#</a> Principles</h1>
+                    
                     <ul class="list">
-                        <li><a href="http://www.html5rocks.com/en/mobile/responsivedesign/">Mobile First</a></li>
-                        <li><a href="http://www.w3.org/wiki/Graceful_degredation_versus_progressive_enhancement">Graceful Degradation / Progressive Enhancement</a></li>
-                        <li><a href="http://html5doctor.com/using-modernizr-to-detect-html5-features-and-provide-fallbacks/">Feature Detection</a></li>
-                        <li><a href="http://en.wikipedia.org/wiki/Single_responsibility_principle">Single Responsibility Principle</a></li>
+                        <li>
+                            <a href="http://www.html5rocks.com/en/mobile/responsivedesign/">
+                                Mobile First
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.w3.org/wiki/Graceful_degredation_versus_progressive_enhancement">
+                                Graceful Degradation / Progressive Enhancement
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://html5doctor.com/using-modernizr-to-detect-html5-features-and-provide-fallbacks/">
+                                Feature Detection
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://en.wikipedia.org/wiki/Single_responsibility_principle">
+                                Single Responsibility Principle
+                            </a>
+                        </li>
                     </ul><!--end .list-->
                 </section><!--end #principles-->
 
                 <section class="island" id="notes">
                     <h1><a href="#notes">#</a> Notes</h1>
+                    
                     <ul class="list">
-                        <li>Before moving to production, remember to make a fresh build of Modernizr, concatenate, minify, and GZip all CSS &amp; JS assets</li>
-                        <li>Consider switching to CSS3 Pie 1 as it's more stable than Pie 2 beta 1 (your testing needs to justify this)</li>
-                        <li>Refer to this <a href="http://a11yproject.com/checklist.html">checklist</a> to make sure the website is accessible.</li>
-                        <li>Only keep what you need from the boilerplate, don't load assets that are not going to be used</li>
+                        <li>
+                            Before moving to production, remember to make a fresh build of Modernizr, concatenate, 
+                            minify, and GZip all CSS &amp; JS assets
+                        </li>
+                        <li>
+                            Consider switching to CSS3 Pie 1 as it's more stable than Pie 2 beta 1 (your testing needs to justify this)
+                        </li>
+                        <li>
+                            Refer to this <a href="http://a11yproject.com/checklist.html">checklist</a> to make sure the website is accessible.
+                        </li>
+                        <li>
+                            Only keep what you need from the boilerplate, don't load assets that are not going to be used
+                        </li>
                     </ul><!--end .list-->
                 </section><!--end #notes-->
 
                 <section class="island" id="related-style-guides">
                     <h1><a href="#related-style-guides">#</a> Related Style Guides</h1>
+                    
                     <ul class="list">
-                        <li><a href="http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml">Google HTML/CSS Style Guide</a></li>
-                        <li><a href="http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml">Google JS Style Guide</a></li>
-                        <li><a href="http://isobar-idev.github.com/code-standards/">Isobar Code Standards</a></li>
+                        <li>
+                            <a href="http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml">
+                                Google HTML/CSS Style Guide
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml">
+                                Google JS Style Guide
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://isobar-idev.github.com/code-standards/">
+                                Isobar Code Standards
+                            </a>
+                        </li>
                     </ul><!--end .list-->
                 </section><!--end #related-style-guides-->
 
                 <section class="island" id="related-reading">
                     <h1><a href="#related-reading">#</a> Related Reading</h1>
+                    
                     <ul class="list">
-                        <li><a href="https://github.com/stubbornella/oocss/wiki/Grids">OOCSS Grid</a></li>
-                        <li><a href="http://microformats.org/wiki/Main_Page">Microformats</a></li>
-                        <li><a href="http://a11yproject.com/checklist.html">Accessibility Checklist</a></li>
-                        <li><a href="https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Functions_and_function_scope/Strict_mode">Strict Mode</a></li>
-                        <li><a href="http://elvery.net/demo/responsive-tables/">Responsive Tables</a></li>
-                        <li><a href="http://stackoverflow.com/questions/9638247/is-jquery-browser-deprecated">$.browser Property</a></li>
-                        <li><a href="http://www.jonathantneal.com/blog/understand-the-favicon/">Understand the Favicon</a></li>
-                        <li><a href="http://bradfrostweb.com/blog/mobile/the-many-faces-of-mobile-first/">The many faces of mobile first</a></li>
-                        <li><a href="http://nicolasgallagher.com/about-html-semantics-front-end-architecture/">About HTML semantics and front-end architecture</a></li>
+                        <li>
+                            <a href="https://github.com/stubbornella/oocss/wiki/Grids">
+                                OOCSS Grid
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://microformats.org/wiki/Main_Page">
+                                Microformats
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://a11yproject.com/checklist.html">
+                                Accessibility Checklist
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Functions_and_function_scope/Strict_mode">
+                                Strict Mode
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://elvery.net/demo/responsive-tables/">
+                                Responsive Tables
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://stackoverflow.com/questions/9638247/is-jquery-browser-deprecated">
+                                $.browser Property
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.jonathantneal.com/blog/understand-the-favicon/">
+                                Understand the Favicon
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://bradfrostweb.com/blog/mobile/the-many-faces-of-mobile-first/">
+                                The many faces of mobile first
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://nicolasgallagher.com/about-html-semantics-front-end-architecture/">
+                                About HTML semantics and front-end architecture
+                            </a>
+                        </li>
                     </ul><!--end .list-->
                 </section><!--end #related-reading-->
 
                 <section class="island" id="favorites">
                     <h1><a href="#favorites">#</a> Favorites</h1>
+                    
                     <ul class="list">
-                        <li><a href="https://developer.mozilla.org/en-US/">MDN</a></li>
-                        <li><a href="http://html5please.com/">HTML5 Please</a></li>
-                        <li><a href="http://css3please.com/">CSS3 Please</a></li>
-                        <li><a href="http://a11yproject.com/">The Accessibility Project</a></li>
-                        <li><a href="http://www.webplatform.org/">Web Platform</a></li>
+                        <li>
+                            <a href="https://developer.mozilla.org/en-US/">MDN</a>
+                        </li>
+                        <li>
+                            <a href="http://html5please.com/">HTML5 Please</a>
+                        </li>
+                        <li>
+                            <a href="http://css3please.com/">CSS3 Please</a>
+                        </li>
+                        <li>
+                            <a href="http://a11yproject.com/">The Accessibility Project</a>
+                        </li>
+                        <li>
+                            <a href="http://www.webplatform.org/">Web Platform</a>
+                        </li>
                     </ul><!--end .list-->
                 </section><!--end #favorites-->
